@@ -45,6 +45,7 @@ i. git remote add origin https://github.com/SmartMammal/<Test-Project.git>
 ii. git push -u origin master
 c. Check the repository in GitHub
 B/ pushing files once the repository is set up
+a. git push
 
 
 Pulling: How to pull from a remote repository
