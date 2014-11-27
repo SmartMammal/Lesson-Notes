@@ -1,0 +1,50 @@
+<——————————————————————————————————>
+CSV package
+<——————————————————————————————————>
+More info: https://docs.python.org/2/library/csv.html
+
+reader function basically does the comma delimiting
+
+<——————————————————————————————————>
+PANDAS Package
+<——————————————————————————————————>
+on pandas: http://pandas.pydata.org/
+on dataframes: http://pandas.pydata.org/pandas-docs/dev/dsintro.html#dataframe
+
+
+<——————————————————————————————————>
+Git & GitHub
+<——————————————————————————————————>
+Find Github here: https://github.com/
+Find Git here: http://git-scm.com/downloads
+
+Configuring Git
+git config --global user.name "Beyonce Knowles"
+git config --global user.email beyonce@thinkful.com
+
+Initializing a Git Repository
+Go to the project in command line
+Then: git init
+
+See what git sees
+git status
+
+Two steps to savings:
+1. Add a file: git add *
+2. Committing a file: git commit -m "Initial commit"
+a. -m gives a description of what changes you made in the commit
+b. check the git status to see if all recent work was committed
+
+Pushing: Saving snapshot to GitHub
+a. Homepage > create new repository > file information > Create Repository
+b. Then use 2nd line
+i. git remote add origin https://github.com/SmartMammal/<Test-Project.git>
+ii. git push -u origin master
+c. Check the repository in GitHub
+
+Pulling: How to pull from a remote repository
+a. $ git pull origin master
+
+
+
+
