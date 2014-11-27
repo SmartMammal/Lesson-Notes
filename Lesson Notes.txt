@@ -30,17 +30,22 @@ See what git sees
 git status
 
 Two steps to savings:
-1. Add a file: git add *
-2. Committing a file: git commit -m "Initial commit"
+1. Add a file: git add * or git add filename.py
+2. Committing a file: git commit -m "Initial commit”… or some comment
+2. Committing a file: git commit -am “<commit_message>”… or some comment
 a. -m gives a description of what changes you made in the commit
-b. check the git status to see if all recent work was committed
+b. -a tells Git to add all changes to previously committed files and saves us having to add them explicitly
+c. check the git status to see if all recent work was committed
 
-Pushing: Saving snapshot to GitHub
+Pushing:
+A/ Saving snapshot to GitHub and building repository for first time
 a. Homepage > create new repository > file information > Create Repository
 b. Then use 2nd line
 i. git remote add origin https://github.com/SmartMammal/<Test-Project.git>
 ii. git push -u origin master
 c. Check the repository in GitHub
+B/ pushing files once the repository is set up
+
 
 Pulling: How to pull from a remote repository
 a. $ git pull origin master
